@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">SpendSmart</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="splitwise">Splitwise</string>
+    <string name="button_back">Back</string>
+    <string name="button_done">Done</string>
+    <string name="text_forgot_your_password"><u>Forgot your Password?</u></string>
 </resources>
