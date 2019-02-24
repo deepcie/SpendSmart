@@ -15,7 +15,7 @@
     <style name="TextAppearance.Splitwise.Title" parent="TextAppearance.MaterialComponents.Headline4">
         <item name="android:textAllCaps">true</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textColor">@color/colorPrimary</item>
     </style>
 
     <style name="Widget.Splitwise.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
@@ -24,18 +24,28 @@
     </style>
 
     <style name="TextAppearance.Splitwise.TextInputLayout.HintText" parent="TextAppearance.MaterialComponents.Subtitle2">
-        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textColor">@color/colorPrimary</item>
     </style>
 
     <style name="Widget.Splitwise.Button" parent="Widget.MaterialComponents.Button">
         <item name="android:textColor">@color/white</item>
-        <item name="backgroundTint">?attr/colorPrimaryDark</item>
+        <item name="backgroundTint">@color/colorPrimary</item>
         <item name="android:stateListAnimator" tools:ignore="NewApi">
             @animator/shr_done_button_state_list_anim
         </item>
     </style>
 
     <style name="Widget.Splitwise.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
-        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textColor">@color/colorPrimary</item>
     </style>
+
+
+    <style name="Widget.Splitwise.Button.Gray" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/colorSecondary</item>
+        <item name="android:stateListAnimator" tools:ignore="NewApi">
+            @animator/shr_done_button_state_list_anim
+        </item>
+    </style>
+
 </resources>
